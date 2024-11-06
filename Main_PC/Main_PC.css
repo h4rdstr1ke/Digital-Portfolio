@@ -1,0 +1,71 @@
+html {
+    width: auto;
+    height: auto;
+}
+
+.border {border: 1px solid black;}
+
+/*Шапка*/
+
+.head {position: sticky;
+       display: block;
+       width: 100%; 
+       margin: 0 auto;
+       max-width: 1170px;;
+       max-height: 90px;
+       border-radius: 45px;
+       opacity: 0.8;
+       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+       background: linear-gradient(
+    90deg,
+    rgba(100, 242, 64, 1) 41.999998688697815%,
+    rgba(58, 140, 37, 1) 100%
+  );}
+    
+.head_text {
+
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+.head_func {
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;}
+
+.logo {width: 165px;
+    height: 100%;
+    
+    flex-grow: 1;
+    display: flex;
+    }
+#logo {
+     
+}
+#Glavnaya {
+
+    flex-grow: 5;
+    font-size: 16px;
+    }
+#O_nas {
+ 
+    flex-grow: 5;}
+#Katalog {
+
+    flex-grow: 5}
+.personal_account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1
+}
+#personal_account {
+
+ }
+/*-----------------------------*/

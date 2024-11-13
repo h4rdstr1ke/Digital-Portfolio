@@ -1,25 +1,37 @@
-html {
+
+
+body {margin-top: 0px;
     width: auto;
     height: auto;
-}
+    margin-left: 40px;
+    margin-right: 40px;}
 
 .border {border: 1px solid black;}
-
+#border {border: 1px solid black;}
 /*Шапка*/
-
-.head {position: sticky;
+.head_block {border: 1px solid red;
+    position:fixed;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    max-height: 90px;}
+.head {
+        border: 1px solid black;
        display: block;
        width: 100%; 
        margin: 0 auto;
-       max-width: 1170px;;
+       max-width: 1170px;
        max-height: 90px;
        border-radius: 45px;
-       opacity: 0.8;
+       opacity: 0.9;
        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
        background: linear-gradient(
     90deg,
-    rgba(100, 242, 64, 1) 41.999998688697815%,
-    rgba(58, 140, 37, 1) 100%
+    rgba(158, 251, 81, 1) 0%,
+    rgba(129, 255, 98, 1) 100%
   );}
     
 .head_text {
@@ -69,3 +81,355 @@ html {
 
  }
 /*-----------------------------*/
+/*Digital_Portfolio*/
+.digital_portfolio {
+                    align-content: center;                    
+                    height: 100vh/*900px*/;
+                    border: 1px solid black;
+                    background-image: url(Img/digital_portfolio_tree.svg);
+                    background-size: 300px 100% ;
+                    background-repeat: no-repeat;
+                    background-position: right;
+                    background-color: #F1EAEA;
+                }
+.digital_portfolio_text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;}
+.digital_portfolio_text_button {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    max-width: 575px;
+}
+
+#digital_portfolio_text {
+    text-align: left;
+    }
+
+.digital_portfolio_button
+                    {
+                        
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        align-items: center;
+                        background: linear-gradient(
+                            90deg,
+                            rgba(157, 251, 81, 1) 73.50000143051147%,
+                            rgba(116, 116, 116, 1) 100%
+                          );                         
+                        width: 175px;
+                        height: 30px;
+                        border-radius: 10px
+                    }
+
+#digital_portfolio_lighting {
+    flex-basis: 25px;
+}
+#digital_portfolio_create {
+flex-basis: 110px;
+margin-left: 10px;}
+
+/*Что такое Digital Portfolio?*/
+.digital_portfolio_what{
+    height: 100vh;
+    background-color: #F1EAEA;
+    border: 1px solid black;
+    background-image: url(Img/digital_portfolio_what_background.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+} 
+.digital_portfolio_what_heading {border: 1px solid black;
+    max-width: calc(50% + 150px);
+    text-align: right;
+    border-radius: 30px;
+    background: linear-gradient(
+        90deg,
+        rgba(241, 234, 234, 1) 0%,
+        rgba(158, 251, 81, 1) 100%);
+}        
+#digital_portfolio_what_heading_text {text-align: center;
+    border: 1px solid black;
+    width: 300px;
+    margin: 0 auto;
+    display: inline-block;}
+.digital_portfolio_what_сontainer {border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    max-width: 50%;
+    align-items: center;
+    }
+.digital_portfolio_what_block1 {border: 1px solid black;
+    display: flex;
+    width: 215px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    clip-path: url(#digital_portfolio_what_texture1);
+    background-color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.digital_portfolio_what_block2 {border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+    height: 250px;
+    clip-path: url(#digital_portfolio_what_texture2);
+    background-color: black;
+    margin-right: 10px;
+    margin-left: 10px;}
+.digital_portfolio_what_block3 {border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+    height: 250px;
+    clip-path: url(#digital_portfolio_what_texture3);
+    background-color: black;
+    margin-right: 10px;
+    margin-left: 10px;}
+#digital_portfolio_what_block_text {padding-right: 5px;
+padding-left: 5px;}
+
+
+.test {border: 2px solid red;
+display: flex;
+height: 90%;
+justify-content: center;
+}
+
+
+/*Ключевые Функции Сервиса*/
+
+.digital_portfolio_func{border: 1px solid black;
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: end;
+justify-content: center;
+position: relative;}
+.digital_portfolio_func_heading{border: 1px solid black;
+    display: flex;
+    float: right;
+    max-width: calc(50% + 250px);
+    width: 100%;
+    background: linear-gradient(
+    90deg,
+    rgba(158, 251, 81, 1) 0%,
+    rgba(241, 234, 234, 0) 100%
+  );
+    border-radius: 30px;
+    max-height: 90px;}
+#digital_portfolio_func_heading_text {border: 1px solid black;
+    max-width: 500px;
+    text-align: center;
+}
+
+
+.digital_portfolio_func_board_block {border: 1px solid black;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start}
+    
+.digital_portfolio_func_board_profile_text {border: 1px solid green;
+    position: relative;
+    display: flex;
+    margin-top: 10%;}
+    .digital_portfolio_func_board_cataloge_text {border: 1px solid green;
+        position: relative;
+        display: flex;
+        margin-top: 7%;}
+        .digital_portfolio_func_board_add_text {border: 1px solid green;
+            position: relative;
+            display: flex;
+            margin-top: 10%;}
+            .digital_portfolio_func_board_publication_text {border: 1px solid green;
+                position: relative;
+                display: flex;
+                margin-top: 13%;}
+    
+    #digital_portfolio_func_board_profile {border: 1px solid red;
+    width: 100%;}
+    
+    
+    #digital_portfolio_func_board_profile_heading {position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;}
+    
+    #digital_portfolio_func_board_profile_text {border: 1px solid yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;}
+
+
+
+/************/
+
+
+
+.digital_portfolio_create {border: 2px solid red;
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;}
+#digital_portfolio_create_heading {border: 1px solid black;
+text-align: center;}
+.digital_portfolio_create_text_container {display: flex;
+border: 2px solid red;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;}
+.digital_portfolio_create_text {border: 1px solid black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 80%;
+height: 80%;
+margin-right: 20%;}
+
+.digital_portfolio_create_text1 {display: flex;
+                                border: 1px solid red;
+                                justify-content: center;
+                                align-items: flex-start;
+                                width: 550px;}
+                                .digital_portfolio_create_text2 {display: flex;
+                                    border: 1px solid red;
+                                    justify-content: center;
+                                    align-items: flex-start;
+                                    width: 550px;
+                                    margin-left: 10%;}
+                                    .digital_portfolio_create_text3 {display: flex;
+                                        border: 1px solid red;
+                                        justify-content: center;
+                                        align-items: flex-start;
+                                        width: 550px;
+                                        margin-left: 20%;}
+                                        .digital_portfolio_create_text4 {display: flex;
+                                            border: 1px solid red;
+                                            justify-content: center;
+                                            align-items: flex-start;
+                                            width: 550px;
+                                            margin-left: 30%;}
+
+#digital_portfolio_create_num {border: 1px solid black;
+    height: 42.5px;
+    width: 42.5px;
+    align-content: center;
+    text-align: center;
+    margin-right: 5%;
+    background: #9efb51;}
+#digital_portfolio_create_text {border: 1px solid black;
+width: 250px;
+height: 85px;
+flex-grow: 1;
+text-align: center;}
+/*-----------------------------*/
+
+/*Для кого подходит*/
+
+.digital_portfolio_users {border: 1px solid black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.digital_portfolio_users_students {border: 1px solid brown;
+    width: 480px;
+    height: 700px;
+    background-image: url(Img/digital_portfolio_users_students.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    margin-right: 2.5%;}
+.digital_portfolio_users_text {border: 1px solid black;
+width: 500px;
+height: 100%;
+height: 700px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.digital_portfolio_users_text_students {border: 1px solid black;
+    display: flex;}
+    .digital_portfolio_users_text_developer {border: 1px solid black;
+        display: flex;
+        text-align: right;}
+        .digital_portfolio_users_text_freelance {border: 1px solid black;
+            display: flex;}
+            .digital_portfolio_users_text_designer {border: 1px solid black;
+                display: flex;
+                text-align: right;}
+
+
+#digital_portfolio_users_heading{
+    border: 1px solid black;
+    text-align: center;}
+#digital_portfolio_users_text{border: 1px solid black;}
+#digital_portfolio_users_icon{border: 1px solid black;
+width: 115px;}
+
+
+/*****/
+.digital_portfolio_contacts {
+height: 200px;
+padding-top: 2.5%;
+padding-bottom: 2.5%;
+background-color: black;
+border-radius: 30px;}
+.digital_portfolio_contacts_text_container {
+color: #F1EAEA;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+width: 100%;}
+.digital_portfolio_contacts_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1100px;}
+.digital_portfolio_contacts_logo {position: absolute;
+    left:5%;}
+
+.digital_portfolio_contacts_text_block{
+display: flex;
+justify-content: space-between;}
+
+.digital_portfolio_contacts_text_subblock {
+display: flex;
+flex-direction: column;
+width: 325px;
+height: 115px;}
+.digital_portfolio_contacts_text_subblock1 {
+display: flex;
+justify-content: center;
+align-items: center;}
+
+
+#digital_portfolio_contacts_icon {}
+#digital_portfolio_contacts_mail {
+text-align: center;
+margin-right: 60px;}
+#digital_portfolio_contacts_text {
+text-align: center;
+flex-grow: 1;}
+#digital_portfolio_contacts_heading {
+text-align: center;}

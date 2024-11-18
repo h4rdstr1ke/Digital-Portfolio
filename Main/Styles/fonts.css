@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Inter";
-    src: url(Inter/Inter-VariableFont_opsz\,wght.ttf)
+    src: url(../../Fonts/Inter/Inter-VariableFont_opsz\,wght.ttf)
 }
 @font-face {
     font-family: "Advent";
-    src: url(Advent_Pro/AdventPro-VariableFont_wdth\,wght.ttf);
+    src: url(../../Fonts/Advent_Pro/AdventPro-VariableFont_wdth\,wght.ttf);
 }
 body {font-family: "Inter", sans-serif;}
 #digital_portfolio_text {font-family: "Advent", sans-serif;

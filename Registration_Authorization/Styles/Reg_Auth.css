@@ -1,0 +1,49 @@
+html {margin: 0 0;}
+body {margin: 0 0;}
+
+
+html {margin: 0 0;}
+body {margin: 0 0;}
+
+.container {
+    display: flex;
+    border: 1px solid red;
+    height: 100vh;
+    margin: auto 5%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;}
+
+.regisrtation, .login {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(50% - 10vw);
+    height: calc(40% - 5vh);
+            }
+
+
+#regisrtation_block, #login_block{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%}
+#regisrtation_input, #login_input {all: inherit;
+        background-color: aqua;
+        border: 1px solid black;
+        text-align: center;
+        width: 90%;
+        margin-bottom: calc(10px + 1vh);
+        background-color: #9EFB51;
+        border-radius: 20px;
+        max-height: 50px;
+        
+}
+#regisrtation_button, #login_button {
+    all: inherit;
+    width: 100%;
+    text-align: center;
+    background-color: #9EFB51;
+    max-height: 30px;}

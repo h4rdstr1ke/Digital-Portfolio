@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 $idUser = $_SESSION['user']['id'];
 //Проверка на сессию
 if ($idUser != '') {

@@ -1,3 +1,16 @@
+<?php
+
+session_start();
+include_once("db.php");
+$idUser = $_SESSION['user']['id'];  //Проверка на сессию
+if ($idUser == '') {
+    header('Location: /Main.html');
+}
+echo $idUser;
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +34,7 @@
                     <a href="Main_PC.html" id="O_nas">О нас</a>
                     <a href="Main_PC.html" id="Katalog">Каталог<br>портфолио</a>
                     <div class="personal_account">
-                        <a href="../Registration_Authorization/Authorization.html"><img id="personal_account" width="40px"
+                        <a href="../Registration_Authorization/Script/login.php"><img id="personal_account" width="40px"
                                 height="40px" src="Img/personal_account.svg" /></a>
                     </div>
                 </div>

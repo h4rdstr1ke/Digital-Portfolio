@@ -1,11 +1,9 @@
 <?php
 
+
 session_start();
 include_once("db.php");
 $idUser = $_SESSION['user']['id'];  //Проверка на сессию
-if ($idUser == '') {
-    header('Location: /Main.html');
-}
 echo $idUser;
 
 ?>
@@ -32,10 +30,15 @@ echo $idUser;
                 <div class="head_func">
                     <a href="Main_PC.html" id="Glavnaya">Главная</a>
                     <a href="Main_PC.html" id="O_nas">О нас</a>
-                    <a href="Main_PC.html" id="Katalog">Каталог<br>портфолио</a>
+                    <a href="../Cataloge/Cataloge.php" id="Katalog">Каталог<br>портфолио</a>
                     <div class="personal_account">
-                        <a href="../Registration_Authorization/Script/login.php"><img id="personal_account" width="40px"
-                                height="40px" src="Img/personal_account.svg" /></a>
+
+                        <a href="<?php if ($idUser == '') {
+                            echo '../Registration_Authorization/Authorization.html';
+                        } else {
+                            echo '../Registration_Authorization/Script/login.php';
+                        } ?>"><img id="personal_account" width="40px" height="40px"
+                                src="Img/personal_account.svg" /></a>
                     </div>
                 </div>
             </div>

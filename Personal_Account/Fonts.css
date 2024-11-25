@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../Fonts/Inter/Inter-VariableFont_opsz\,wght.ttf)
+}
+@font-face {
+    font-family: "Advent";
+    src: url(../Fonts/Advent_Pro/AdventPro-VariableFont_wdth\,wght.ttf);
+}
+
+body {font-family: "Inter", sans-serif;
+    font-weight: 400;}
+
+    #block_right_header{font-family: "Inter", sans-serif;
+    font-size: 32px;}
+
+    #button_text {font-family: "Inter", sans-serif;
+                    font-size: 16px;
+                    font-weight: 300;
+                    letter-spacing: 1px}
+    #text_user{font-family: "Inter", sans-serif;
+               font-weight: 300;}
+    #block_right_header {
+        font-family: "Inter", sans-serif;
+        letter-spacing: 2px;
+        font-weight: 500;}

@@ -19,6 +19,12 @@ if ($idUser != '' && $id == '') {
         $project = $row['project'];
         $information = $row['information'];
     }
+    $sql = "SELECT email FROM users WHERE id = $idUser";
+    $result = $connect->query($sql);
+    $row = mysqli_fetch_array($result);
+    $email = $row["email"];
+    echo 'email: ' . $email;
+
 } elseif ($id != '') {
     $sql = "SELECT * FROM personal_account WHERE id = $id"; //Получаем данные из базы и вносим их в переменные
     $result = $connect->query($sql);
@@ -31,7 +37,13 @@ if ($idUser != '' && $id == '') {
         $age = $row['age'];
         $project = $row['project'];
         $information = $row['information'];
+
     }
+    $sql = "SELECT email FROM users WHERE id = $id";
+    $result = $connect->query($sql);
+    $row = mysqli_fetch_array($result);
+    $email = $row["email"];
+    echo 'email: ' . $email;
 }
 
 
@@ -46,8 +58,8 @@ if ($idUser != '' && $id == '') {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="Personal_Account12.css">
-        <link rel="stylesheet" href="Fonts.css">
+        <link rel="stylesheet" href="Personal_Account2.css">
+        <link rel="stylesheet" href="Fonts2.css">
     </head>
 
     <body>
@@ -60,7 +72,7 @@ if ($idUser != '' && $id == '') {
                         </div>
                         <div class="head_func">
                             <a href="../Main/Main.php" id="Glavnaya">Главная</a>
-                            <a href="Main_PC.html" id="O_nas">О нас</a>
+                            <a href="../Main/Main.php#digital_portfolio_contacts_heading" id="O_nas">О нас</a>
                             <a href="../Cataloge/Cataloge.php" id="Katalog">Каталог<br>портфолио</a>
                             <div class="personal_account">
 
@@ -115,13 +127,17 @@ if ($idUser != '' && $id == '') {
                             </div>
                         </div>
                     </div>
+                    <div class="information_four">
+                        <p>Email</p>
+                        <p id="text_user"><?= $email; ?></p>
+                    </div>
                 </div>
                 <div class="block_right">
                     <div class="block_right_header">
                         <p id="block_right_header">Обо мне:</p>
                     </div>
                     <div class="block_right_text">
-                        <p id="text_user"><?= $information ?></е>
+                        <p id="text_user"><?= $information ?></dе>
                     </div>
 
                 </div>
@@ -169,6 +185,10 @@ if ($idUser != '' && $id == '') {
                                     <p id="text_user"><?= $project ?></p>
                                 </div>
                             </div>
+                        </div>
+                        <div class="information_four">
+                            <p>Email</p>
+                            <p id="text_user"><?= $email; ?></p>
                         </div>
                     </div>
                     <div class="block_right">

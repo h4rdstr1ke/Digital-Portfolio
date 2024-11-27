@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../../Fonts/Inter/Inter-VariableFont_opsz\,wght.ttf)
+}
+@font-face {
+    font-family: "Advent";
+    src: url(../../Fonts/Advent_Pro/AdventPro-VariableFont_wdth\,wght.ttf);
+}
+body {font-family: "Inter", sans-serif;}
+#Glavnaya {
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        font-weight: 700;}
+#O_nas {font-family: "Inter", sans-serif;
+        font-weight: 500;}
+#Katalog {font-family: "Inter", sans-serif;
+    font-weight: 500;}
+#digital_portfolio_text {font-family: "Advent", sans-serif;
+    font-size: 20px;
+    font-weight: 400;}
+
+#digital_portfolio {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 0.1em;}
+#digital_portfolio_create {
+font-family: "Inter", sans-serif;
+font-size: 16px;
+font-weight: 600;
+letter-spacing: 0.15em;}
+
+/****/
+#digital_portfolio_what_heading_text {font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 0.1em;}
+
+#digital_portfolio_what_block_text {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #9EFB51;
+}
+/***/
+
+#digital_portfolio_func_heading_text{font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 0.1em;}
+
+
+/***/
+#digital_portfolio_create_heading {font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 300;}
+
+#digital_portfolio_func_board_profile_text {font-family: "Inter", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.1em;}
+
+
+/***/
+#digital_portfolio_users_heading {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+#digital_portfolio_users_text {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}

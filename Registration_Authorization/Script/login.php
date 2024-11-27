@@ -16,6 +16,7 @@ $pass = $_POST["pass"];
 
 if (empty($login) || empty($pass)) {
     echo "Заполните все поля";
+
 } else {
     $sql = "SELECT * FROM users WHERE login = '$login' AND password = '$pass'";
     $result = $connect->query($sql);

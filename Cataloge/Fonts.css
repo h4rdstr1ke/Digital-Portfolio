@@ -6,6 +6,15 @@
     font-family: "Advent";
     src: url(/Digital_Porfolio/Fonts/Advent_Pro/AdventPro-VariableFont_wdth\,wght.ttf);
 }
+#Glavnaya {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;}
+#O_nas {font-family: "Inter", sans-serif;
+    font-weight: 500;}
+#Katalog {font-family: "Inter", sans-serif;
+font-weight: 500;}
+
 #card_information_text {
     font-family: "Inter", sans-serif;
     font-size: 16px;

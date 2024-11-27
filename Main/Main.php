@@ -4,7 +4,7 @@
 session_start();
 include_once("db.php");
 $idUser = $_SESSION['user']['id'];  //Проверка на сессию
-echo $idUser;
+
 
 ?>
 
@@ -16,7 +16,7 @@ echo $idUser;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Styles/fonts.css">
+    <link rel="stylesheet" href="Styles/fonts2.css">
     <link rel="stylesheet" href="Styles/Main.css">
 </head>
 
@@ -28,8 +28,8 @@ echo $idUser;
                     <img id="logo" width="165" height="58" src="Img/logo.svg" />
                 </div>
                 <div class="head_func">
-                    <a href="Main_PC.html" id="Glavnaya">Главная</a>
-                    <a href="Main_PC.html" id="O_nas">О нас</a>
+                    <a href="Main.php" id="Glavnaya">Главная</a>
+                    <a href="#digital_portfolio_contacts_heading" id="O_nas">О нас</a>
                     <a href="../Cataloge/Cataloge.php" id="Katalog">Каталог<br>портфолио</a>
                     <div class="personal_account">
 
@@ -45,35 +45,42 @@ echo $idUser;
         </div>
     </div>
     <div class="digital_portfolio">
+        <div class="digital_portfolio_tree">
+        </div>
         <div class="digital_portfolio_text">
             <h1 id="digital_portfolio">Digital Portfolio: Ваш<br>Профессиональный Путь<br>Онлайн</h1>
             <div class="digital_portfolio_text_button">
                 <p id="digital_portfolio_text">Создайте впечатляющее цифровое портфолио, которое выделит вас среди
                     конкурентов и продемонстрирует ваши профессиональные достижения.</p>
-                <button class="digital_portfolio_button">
-                    <p id="digital_portfolio_create">Создать</p><img id="digital_portfolio_lighting" width="165"
-                        height="40" src="Img/lightning.svg" />
-                </button>
+                <form action="../Registration_Authorization/Registration.html"><button class="digital_portfolio_button">
+                        <p id="digital_portfolio_create">Создать</p><img id="digital_portfolio_lighting" width="165"
+                            height="40" src="Img/lightning.svg" />
+                    </button></form>
             </div>
         </div>
     </div>
     <div class="digital_portfolio_what">
-        <div class="digital_portfolio_what_heading">
-            <h2 id="digital_portfolio_what_heading_text">Что такое Digital<br> Portfolio?</h2>
-        </div>
-        <div class="test">
-            <div class="digital_portfolio_what_сontainer">
-                <div class="digital_portfolio_what_block1">
-                    <p id="digital_portfolio_what_block_text">Digital Portfolio - это онлайн-коллекция ваших лучших
-                        работ и достижений.</p>
-                </div>
-                <div class="digital_portfolio_what_block2">
-                    <p id="digital_portfolio_what_block_text">Сервис позволяет эффективно презентовать свои навыки и
-                        опыт потенциальным работодателям или клиентам.</p>
-                </div>
-                <div class="digital_portfolio_what_block3">
-                    <p id="digital_portfolio_what_block_text">Все ваши проекты организованы и доступны в одном месте,
-                        что упрощает их демонстрацию.</p>
+        <div class="digital_portfolio_background">
+            <div class="digital_portfolio_background_sphere">
+            </div>
+            <div class="digital_portfolio_what_heading">
+                <h2 id="digital_portfolio_what_heading_text">Что такое Digital<br> Portfolio?</h2>
+            </div>
+            <div class="test">
+                <div class="digital_portfolio_what_сontainer">
+                    <div class="digital_portfolio_what_block1">
+                        <p id="digital_portfolio_what_block_text">Digital Portfolio - это онлайн-коллекция ваших лучших
+                            работ и достижений.</p>
+                    </div>
+                    <div class="digital_portfolio_what_block2">
+                        <p id="digital_portfolio_what_block_text">Сервис позволяет эффективно презентовать свои навыки и
+                            опыт потенциальным работодателям или клиентам.</p>
+                    </div>
+                    <div class="digital_portfolio_what_block3">
+                        <p id="digital_portfolio_what_block_text">Все ваши проекты организованы и доступны в одном
+                            месте,
+                            что упрощает их демонстрацию.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -83,33 +90,36 @@ echo $idUser;
 
 
     <div class="digital_portfolio_func">
-        <div class="digital_portfolio_func_heading">
-            <h2 id="digital_portfolio_func_heading_text">Ключевые Функции Сервиса</h2>
-        </div>
-        <div class="digital_portfolio_func_board_block">
-            <div class="digital_portfolio_func_board_profile_text">
-                <img id="digital_portfolio_func_board_profile" src="Img/board_profile.svg">
-                <h3 id="digital_portfolio_func_board_profile_heading">Профиль Пользователя</h3>
-                <p id="digital_portfolio_func_board_profile_text">Создайте персонализированный профиль с информацией о
-                    вашем опыте и навыках.</p>
+        <div class="digital_portfolio_func_background">
+            <div class="digital_portfolio_func_heading">
+                <h2 id="digital_portfolio_func_heading_text">Ключевые Функции Сервиса</h2>
             </div>
-            <div class="digital_portfolio_func_board_cataloge_text">
-                <img id="digital_portfolio_func_board_profile" src="Img/board_cataloge.svg">
-                <h3 id="digital_portfolio_func_board_profile_heading">Каталог Проектов</h3>
-                <p id="digital_portfolio_func_board_profile_text">Создайте персонализированный профиль с информацией о
-                    вашем опыте и навыках.</p>
-            </div>
-            <div class="digital_portfolio_func_board_add_text">
-                <img id="digital_portfolio_func_board_profile" src="Img/board_add.svg">
-                <h3 id="digital_portfolio_func_board_profile_heading">Добавление Проектов</h3>
-                <p id="digital_portfolio_func_board_profile_text">Создайте персонализированный профиль с информацией о
-                    вашем опыте и навыках.</p>
-            </div>
-            <div class="digital_portfolio_func_board_publication_text">
-                <img id="digital_portfolio_func_board_profile" src="Img/board_publication.svg">
-                <h3 id="digital_portfolio_func_board_profile_heading">Публикация</h3>
-                <p id="digital_portfolio_func_board_profile_text">Создайте персонализированный профиль с информацией о
-                    вашем опыте и навыках.</p>
+            <div class="digital_portfolio_func_board_block">
+                <div class="digital_portfolio_func_board_profile_text">
+                    <img id="digital_portfolio_func_board_profile" src="Img/board_profile.svg">
+                    <h3 id="digital_portfolio_func_board_profile_heading">Профиль Пользователя</h3>
+                    <p id="digital_portfolio_func_board_profile_text">Создайте персонализированный профиль с информацией
+                        о
+                        вашем опыте и навыках.</p>
+                </div>
+                <div class="digital_portfolio_func_board_cataloge_text">
+                    <img id="digital_portfolio_func_board_profile" src="Img/board_cataloge.svg">
+                    <h3 id="digital_portfolio_func_board_profile_heading">Каталог Проектов</h3>
+                    <p id="digital_portfolio_func_board_profile_text">Организуйте свои работы по категориям для удобного
+                        просмотра и поиска.</p>
+                </div>
+                <div class="digital_portfolio_func_board_add_text">
+                    <img id="digital_portfolio_func_board_profile" src="Img/board_add.svg">
+                    <h3 id="digital_portfolio_func_board_profile_heading">Добавление Проектов</h3>
+                    <p id="digital_portfolio_func_board_profile_text">
+                        Легко загружайте и обновляйте информацию о своих новых достижениях.</p>
+                </div>
+                <div class="digital_portfolio_func_board_publication_text">
+                    <img id="digital_portfolio_func_board_profile" src="Img/board_publication.svg">
+                    <h3 id="digital_portfolio_func_board_profile_heading">Публикация</h3>
+                    <p id="digital_portfolio_func_board_profile_text">Делитесь своим портфолио с потенциальными
+                        работодателями или клиентами.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -142,7 +152,11 @@ echo $idUser;
                         Добавляйте новые проекты и удаляйте устаревшие, чтобы портфолио оставалось актуальным.</p>
                 </div>
             </div>
+            <div class="digital_portfolio_create_icon1"></div>
+            <div class="digital_portfolio_create_icon2"></div>
+            <div class="digital_portfolio_create_icon3"></div>
         </div>
+
     </div>
     <div class="digital_portfolio_users">
         <div class="digital_portfolio_users_students"></div>

@@ -1,0 +1,57 @@
+<svg width="353" height="908" viewBox="0 0 353 908" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_154_301)">
+<rect x="4" y="4" width="345" height="900" fill="#F1EAEA"/>
+<circle cx="192.5" cy="823.5" r="16.5" fill="url(#paint0_linear_154_301)"/>
+<circle cx="176" cy="142" r="25" fill="url(#paint1_linear_154_301)"/>
+<circle cx="120" cy="271" r="31" fill="url(#paint2_linear_154_301)"/>
+<circle cx="244" cy="487" r="25" fill="url(#paint3_linear_154_301)"/>
+<circle cx="89" cy="103" r="25" fill="url(#paint4_linear_154_301)"/>
+<circle cx="94" cy="529" r="70" fill="url(#paint5_linear_154_301)"/>
+<circle cx="251.5" cy="698.5" r="17.5" fill="url(#paint6_linear_154_301)"/>
+<circle cx="101" cy="773" r="25" fill="url(#paint7_linear_154_301)"/>
+<circle cx="244" cy="330" r="50" fill="url(#paint8_linear_154_301)"/>
+</g>
+<defs>
+<filter id="filter0_f_154_301" x="0" y="0" width="353" height="908" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur_154_301"/>
+</filter>
+<linearGradient id="paint0_linear_154_301" x1="192.5" y1="807" x2="192.5" y2="840" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B4F67A"/>
+<stop offset="1" stop-color="#9EFB51"/>
+</linearGradient>
+<linearGradient id="paint1_linear_154_301" x1="176" y1="117" x2="176" y2="167" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B4F67A"/>
+<stop offset="1" stop-color="#9EFB51"/>
+</linearGradient>
+<linearGradient id="paint2_linear_154_301" x1="120" y1="240" x2="120" y2="302" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B4F67A"/>
+<stop offset="1" stop-color="#9EFB51"/>
+</linearGradient>
+<linearGradient id="paint3_linear_154_301" x1="244" y1="462" x2="244" y2="512" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B4F67A"/>
+<stop offset="1" stop-color="#9EFB51"/>
+</linearGradient>
+<linearGradient id="paint4_linear_154_301" x1="89" y1="78" x2="89" y2="128" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B4F67A"/>
+<stop offset="1" stop-color="#9EFB51"/>
+</linearGradient>
+<linearGradient id="paint5_linear_154_301" x1="94" y1="459" x2="94" y2="599" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B4F67A"/>
+<stop offset="1" stop-color="#9EFB51"/>
+</linearGradient>
+<linearGradient id="paint6_linear_154_301" x1="251.5" y1="681" x2="251.5" y2="716" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B4F67A"/>
+<stop offset="1" stop-color="#9EFB51"/>
+</linearGradient>
+<linearGradient id="paint7_linear_154_301" x1="101" y1="748" x2="101" y2="798" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B4F67A"/>
+<stop offset="1" stop-color="#9EFB51"/>
+</linearGradient>
+<linearGradient id="paint8_linear_154_301" x1="244" y1="280" x2="244" y2="380" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B4F67A"/>
+<stop offset="1" stop-color="#9EFB51"/>
+</linearGradient>
+</defs>
+</svg>

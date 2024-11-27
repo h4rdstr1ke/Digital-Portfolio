@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../../Fonts/Inter/Inter-VariableFont_opsz\,wght.ttf)
+}
+@font-face {
+    font-family: "Advent";
+    src: url(/Digital_Porfolio/Fonts/Advent_Pro/AdventPro-VariableFont_wdth\,wght.ttf);
+}
+
+body {font-family: "Inter", sans-serif;}
+#func_text {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    letter-spacing: 8px;
+}
+#func_text_main {font-family: "Inter", sans-serif;
+font-weight: 500;
+letter-spacing: 0.1em;}

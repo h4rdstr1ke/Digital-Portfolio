@@ -6,6 +6,9 @@ $result = $connect->query($sql);                    //Запрос на полу
 $row = mysqli_fetch_assoc($result);
 $id = $row['id'];
 
+$search = $_POST['search'];
+echo $search;
+
 
 /*$sql = "SELECT * FROM personal_account WHERE id = 2"; //Получаем данные из базы и вносим их в переменные
 $result = $connect->query($sql);
@@ -27,8 +30,8 @@ echo $age;*/
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Cataloge1.css">
-    <link rel="stylesheet" href="../Fonts.css">
+    <link rel="stylesheet" href="Cataloge.css">
+    <link rel="stylesheet" href="Fonts.css">
 </head>
 
 <div class="container_head">
@@ -40,7 +43,7 @@ echo $age;*/
                 </div>
                 <div class="head_func">
                     <a href="../Main/Main.php" id="Glavnaya">Главная</a>
-                    <a href="Main_PC.html" id="O_nas">О нас</a>
+                    <a href="../Main/Main.php#digital_portfolio_contacts_heading" id="O_nas">О нас</a>
                     <a href="../Cataloge/Cataloge.php" id="Katalog">Каталог<br>портфолио</a>
                     <div class="personal_account">
 
@@ -57,7 +60,7 @@ echo $age;*/
     </div>
 </div>
 <div class="container_full">
-    <div class='search'><input /><button>Найти</button></div>
+    <form class='search' action="Cataloge.php" method="post"><input name="search" /><button>Найти</button></form>
     <div class="container_card">
         <?php
         while ($id > 0) {

@@ -2,7 +2,7 @@
 
 session_start();
 $idUser = $_SESSION['user']['id'];
-echo 'ID: ' . $idUser;
+//echo 'ID: ' . $idUser;
 
 
 $logout = $_POST["exit"];

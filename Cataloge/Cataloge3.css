@@ -1,0 +1,325 @@
+.container_head {
+    height: 90px;}
+    .container_head2 {display: none;}
+    .head_block {
+        position:fixed;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        left:0px;
+        width: 100%;
+        height: 100%;
+        max-height: 90px;
+        z-index: 2;
+        }
+    .head {
+            border: 1px solid black;
+           display: block;
+           width: 100%; 
+           margin: 0 auto;
+           max-width: 1170px;
+           max-height: 90px;
+           border-radius: 45px;
+           opacity: 0.9;
+           box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+           background: linear-gradient(
+        90deg,
+        rgba(158, 251, 81, 1) 0%,
+        rgba(129, 255, 98, 1) 100%
+      );}
+        
+    .head_text {
+    
+        display: flex;
+        align-items: center;
+        padding-left: 25px;
+        padding-right: 25px;
+        
+    }
+    .head_func {
+        flex-grow: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 100px;}
+    
+    .logo {width: 165px;
+        height: 100%;
+        
+        flex-grow: 1;
+        display: flex;
+        }
+    #logo {
+         
+    }
+    #Glavnaya {
+        flex-grow: 5;
+        font-size: 16px;
+        }
+    #O_nas {
+     
+        flex-grow: 5;}
+    #Katalog {
+    
+        flex-grow: 5}
+    .personal_account {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-grow: 1
+    }
+    #personal_account {
+     }
+     .head_block a {text-decoration: none;
+                    color: black;
+                    transition: 0.5s;}
+                    .head_block a:hover {color: gray;}
+/********/
+
+
+.container_full {display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #F1EAEA;}
+.container_card {display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-start;
+height: 100vh;
+}
+.search {
+display: flex;
+justify-content: end;
+margin-top: 10px;
+margin-right: 10px;
+}
+.card {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+max-width: 350px;
+width: 100%;
+min-height: 200px;
+margin-left: 2.5%;
+margin-right: 2.5%;
+background-color: #D9D9D9;
+margin-top: 50px;
+}
+.card_information {
+display: flex;
+}
+.card_information_text_container {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+max-width: 250px;
+            
+            }
+.card_information_text {
+  display: flex;
+width: 100%;
+align-items: center;
+justify-content: space-between;}
+
+#card_information_text {
+text-align: center;
+max-width: 122.5px;
+width: 100%;
+}
+.card_information_img {
+border-radius: 10px;
+background-color: #9EFB51;
+width: 100px;
+height: 150px;}
+.card_button {
+              display: flex;
+              height: 30px;
+              }
+#card_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  border: none;
+  width: 350px;
+  height: 100%;
+  background-color: #9EFB51;
+  transition: 0.5s;
+}
+#card_button:hover 
+{background-color: #CCF2A6;}
+
+
+@media screen and (max-width: 1000px) { 
+
+    /*Бургер*/
+    .menu2 {border: 1px solid green;}
+    .menu-list2 {
+        margin-top: 90px;
+        border: 1px solid black;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+        top: 0;
+        left: 0;
+        position: absolute;
+        gap: 50px;
+        padding: 42px 0;
+        list-style-type: none;
+        opacity: 0.9;
+        width: 100%;
+        height: 90vh;
+      }
+      .menu-item2 {
+        border: 1px solid black;
+        padding: 8px;
+        color: white;
+        font-size: 28px;
+        text-align: center;
+        text-decoration: none;
+      }
+      .menu-item2:hover {
+        background: rgba(255,255,255,.2)
+      }
+      .burger-checkbox:checked ~ .menu-list2 {
+        display: flex;
+        background: orange;
+        transform: translateX(0);
+      }
+      .container_head {display: none;}
+    .container_head2 {
+        display: block;
+        
+        height: 90px;}
+    /*Шапка*/
+    .head_block2 {
+        position:fixed;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        left:0px;
+        width: 100%;
+        height: 100%;
+        max-height: 90px;
+        z-index: 2;
+        
+        }
+    .head2 {
+           border-radius: 40px;
+           
+           display: flex;
+           justify-content: center;
+           width: 100%;
+           max-height: 90px;
+           opacity: 0.9;
+           box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+           background: linear-gradient(
+        90deg,
+        rgba(158, 251, 81, 1) 0%,
+        rgba(129, 255, 98, 1) 100%
+      );}
+        
+    .head_text2 {
+        
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+    .head_func2 {
+        
+        flex-grow: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 160px;}
+    
+    .logo2 {
+        max-width: 160px;
+        
+        height: 100%;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        }
+    #logo {
+         width: 100%;
+    }
+    #Glavnaya {
+        flex-grow: 5;
+        font-size: 16px;
+        }
+    #O_nas {
+     
+        flex-grow: 5;}
+    #Katalog {
+    
+        flex-grow: 5}
+    .personal_account {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-grow: 1
+    }
+    #personal_account {
+     }
+     .head_block a {text-decoration: none;
+                    color: black;
+                    transition: 0.5s;}
+                    .head_block a:hover {color: gray;}
+    
+    
+                    .burger-checkbox {
+                        position: absolute;
+                        visibility: hidden;
+                      }
+                      .burger {
+                        cursor: pointer;
+                        display: block;
+                        position: relative;
+                        border: none;
+                        background: transparent;
+                        width: 40px;
+                        height: 26px;
+                        margin: 30px auto;
+                      }
+                      .burger::before,
+                      .burger::after {
+                        content: '';
+                        left: 0;
+                        position: absolute;
+                        display: block;
+                        width: 100%;
+                        height: 4px;
+                        border-radius: 10px;
+                        background: #000;
+                      }
+                      .burger::before {
+                        top: 0;
+                        box-shadow: 0 11px 0 #000;
+                        transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+                      }
+                      .burger::after {
+                        bottom: 0;
+                        transition: bottom .3s .15s, transform .3s;
+                      }
+                      .burger-checkbox:checked + .burger::before {
+                        top: 11px;
+                        transform: rotate(45deg);
+                        box-shadow: 0 6px 0 rgba(0,0,0,0);
+                        transition: box-shadow .15s, top .3s, transform .3s .15s;
+                      }
+                      .burger-checkbox:checked + .burger::after {
+                        bottom: 11px;
+                        transform: rotate(-45deg);
+                        transition: bottom .3s, transform .3s .15s;
+                      }
+
+}

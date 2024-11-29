@@ -1,8 +1,6 @@
 <?php
 $id = $_POST['but'];
 $editor = $_POST['editor'];
-echo $editor;
-echo $id;
 
 include_once("../session.php");
 include_once('../db.php');
@@ -23,7 +21,6 @@ if ($idUser != '' && $id == '') {
     $result = $connect->query($sql);
     $row = mysqli_fetch_array($result);
     $email = $row["email"];
-    echo 'email: ' . $email;
 
 } elseif ($id != '') {
     $sql = "SELECT * FROM personal_account WHERE id = $id"; //Получаем данные из базы и вносим их в переменные
@@ -43,7 +40,6 @@ if ($idUser != '' && $id == '') {
     $result = $connect->query($sql);
     $row = mysqli_fetch_array($result);
     $email = $row["email"];
-    echo 'email: ' . $email;
 }
 
 
@@ -58,7 +54,7 @@ if ($idUser != '' && $id == '') {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="Personal_Account2.css">
+        <link rel="stylesheet" href="Personal_Account.css">
         <link rel="stylesheet" href="Fonts2.css">
     </head>
 
@@ -83,6 +79,37 @@ if ($idUser != '' && $id == '') {
                                 } ?>"><img id="personal_account" width="40px" height="40px"
                                         src="Img/personal_account.svg" /></a>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--для запроса-->
+        <div class="container_head2">
+            <div class="head_block2">
+                <div class="head2">
+                    <div class="head_text2">
+                        <div class="logo2">
+                            <img id="logo" width="165" height="58" src="Img/logo.svg" />
+                        </div>
+                        <div class="head_func2">
+                            <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                            <label class="burger" for="burger-checkbox"></label>
+                            <ul class="menu-list2">
+                                <li><a href="../Main/Main.php" class="menu-item">Главная</a>
+                                <li>
+                                <li><a href="../Main/Main.php#digital_portfolio_contacts_heading" class="menu-item">О
+                                        нас</a>
+                                <li>
+                                <li><a href="../Cataloge/Cataloge.php" class="menu-item">Каталог портфолио</a>
+                                <li>
+                                <li><a href="<?php if ($idUser == '') {
+                                    echo '../Registration_Authorization/Authorization.html';
+                                } else {
+                                    echo '../Registration_Authorization/Script/login.php';
+                                } ?>" class="menu-item">Личный кабинет</a>
+                                <li>
+                            </ul>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,1094 @@
+
+
+body {margin-top: 0px;
+    width: auto;
+    height: auto;
+    margin-left: 40px;
+    margin-right: 40px;}
+
+.container_head2 {display: none;}
+.container_head {
+    height: 90px;}
+/*Шапка*/
+.head_block {
+    position:fixed;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    max-height: 90px;
+    z-index: 2;
+    }
+.head {
+        border: 1px solid black;
+       display: block;
+       width: 100%; 
+       margin: 0 auto;
+       max-width: 1170px;
+       max-height: 90px;
+       border-radius: 45px;
+       opacity: 0.9;
+       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+       background: linear-gradient(
+    90deg,
+    rgba(158, 251, 81, 1) 0%,
+    rgba(129, 255, 98, 1) 100%
+  );}
+    
+.head_text {
+
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+.head_func {
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;}
+
+.logo {width: 165px;
+    height: 100%;
+    
+    flex-grow: 1;
+    display: flex;
+    }
+#logo {
+     
+}
+#Glavnaya {
+    flex-grow: 5;
+    font-size: 16px;
+    }
+#O_nas {
+ 
+    flex-grow: 5;}
+#Katalog {
+
+    flex-grow: 5}
+.personal_account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1
+}
+#personal_account {
+ }
+ .head_block a {text-decoration: none;
+                color: black;
+                transition: 0.5s;}
+                .head_block a:hover {color: gray;}
+
+
+
+@media screen and (max-width: 1000px) {
+    /*Бургер кнопка*/
+
+
+
+
+}
+/*-----------------------------*/
+/*Digital_Portfolio*/
+.digital_portfolio2 {display: none;}
+.digital_portfolio {
+                    align-content: center;                    
+                    height: 100vh/*900px*/;
+                    background-image: url(Img/digital_portfolio_tree.svg);
+                    background-size: 300px 100% ;
+                    background-repeat: no-repeat;
+                    background-position: right;
+                    background-color: #F1EAEA;
+                }
+.digital_portfolio_text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;}
+.digital_portfolio_text_button {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    max-width: 575px;
+}
+
+#digital_portfolio_text {
+    text-align: left;
+    }
+
+.digital_portfolio_button
+                    {
+                        
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        align-items: center;
+                        background: linear-gradient(
+                            90deg,
+                            rgba(157, 251, 81, 1) 73.50000143051147%,
+                            rgba(116, 116, 116, 1) 100%
+                          );                         
+                        width: 175px;
+                        height: 30px;
+                        border-radius: 10px
+                    }
+
+#digital_portfolio_lighting {
+    flex-basis: 25px;
+}
+#digital_portfolio_create {
+flex-basis: 110px;
+margin-left: 10px;}
+.digital_portfolio_tree {
+                        z-index: 0;
+                        background-image: url(../Img/Group\ 9.svg);
+                        background-size:cover;     
+                        background-repeat: no-repeat;
+                        position: absolute;
+                        top: 0;
+                        right: 10em;
+                        height: 100vh;
+                        width: 25vw;
+                        }
+.digital_portfolio p{z-index: 1;}
+.digital_portfolio h1{z-index: 1;}
+.digital_portfolio button{z-index: 1;}
+/*Что такое Digital Portfolio?*/
+.digital_portfolio_what2 {display: none;}
+.digital_portfolio_what{
+    height: 100vh;
+    background-color: #F1EAEA;
+    position: relative;
+    
+} 
+.digital_portfolio_background {background-image: url(../Img/digital_portfolio_what_background.svg);
+width: 100%;
+background-size: contain;
+
+height: 100%;}
+.digital_portfolio_background_sphere {background-image: url(../Img/digital_portfolio_what_sphere.svg);
+position: absolute;
+bottom: 0px;
+background-size:contain;     
+background-repeat: no-repeat;
+width: 500px;
+height: 250px;}
+.digital_portfolio_what_heading {
+    
+    max-width: calc(50% + 150px);
+    text-align: right;
+    border-radius: 30px;
+    background: linear-gradient(
+        90deg,
+        rgba(241, 234, 234, 1) 0%,
+        rgba(158, 251, 81, 1) 100%);
+}        
+#digital_portfolio_what_heading_text {text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    display: inline-block;}
+.digital_portfolio_what_сontainer {
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    max-width: 50%;
+    align-items: center;
+    }
+.digital_portfolio_what_block1 {
+    display: flex;
+    width: 215px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    clip-path: url(#digital_portfolio_what_texture1);
+    background-color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.digital_portfolio_what_block2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+    height: 250px;
+    clip-path: url(#digital_portfolio_what_texture2);
+    background-color: black;
+    margin-right: 10px;
+    margin-left: 10px;}
+.digital_portfolio_what_block3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+    height: 250px;
+    clip-path: url(#digital_portfolio_what_texture3);
+    background-color: black;
+    margin-right: 10px;
+    margin-left: 10px;}
+#digital_portfolio_what_block_text {padding-right: 5px;
+padding-left: 5px;}
+
+
+.test {
+display: flex;
+height: 90%;
+justify-content: center;
+}
+
+
+/*Ключевые Функции Сервиса*/
+.digital_portfolio_func2 {display: none;}
+.digital_portfolio_func{
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: end;
+justify-content: center;
+position: relative;
+background-color: #F1EAEA;}
+.digital_portfolio_func_background {
+background-image: url(../Img/digital_portfolio_func_background.svg);
+background-size: contain;
+width: 100%;
+height: 100%;}
+.digital_portfolio_func_heading{
+    display: flex;
+    float: right;
+    max-width: calc(50% + 250px);
+    width: 100%;
+    background: linear-gradient(
+    90deg,
+    rgba(158, 251, 81, 1) 0%,
+    rgba(241, 234, 234, 0) 100%
+  );
+    border-radius: 30px;
+    max-height: 90px;}
+#digital_portfolio_func_heading_text {
+    max-width: 500px;
+    text-align: center;
+}
+
+
+.digital_portfolio_func_board_block {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start}
+    
+.digital_portfolio_func_board_profile_text {
+    position: relative;
+    display: flex;
+    margin-top: 10%;}
+    .digital_portfolio_func_board_cataloge_text {
+        position: relative;
+        display: flex;
+        margin-top: 7%;}
+        .digital_portfolio_func_board_add_text {
+            position: relative;
+            display: flex;
+            margin-top: 10%;}
+            .digital_portfolio_func_board_publication_text {
+                position: relative;
+                display: flex;
+                margin-top: 13%;}
+    
+    #digital_portfolio_func_board_profile {
+    width: 100%;}
+    
+    
+    #digital_portfolio_func_board_profile_heading {position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;}
+    
+    #digital_portfolio_func_board_profile_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;}
+
+
+
+/************/
+
+
+.digital_portfolio_create2 {display: none;}
+.digital_portfolio_create {
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+background-color: #F1EAEA;}
+#digital_portfolio_create_heading {
+text-align: center;}
+.digital_portfolio_create_text_container {display: flex;
+
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;}
+.digital_portfolio_create_text {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 80%;
+height: 80%;
+margin-right: 20%;}
+
+.digital_portfolio_create_text1 {display: flex;
+                               
+                                justify-content: center;
+                                align-items: flex-start;
+                                width: 550px;}
+                                .digital_portfolio_create_text2 {display: flex;
+                                   
+                                    justify-content: center;
+                                    align-items: flex-start;
+                                    width: 550px;
+                                    margin-left: 10%;}
+                                    .digital_portfolio_create_text3 {display: flex;
+                                       
+                                        justify-content: center;
+                                        align-items: flex-start;
+                                        width: 550px;
+                                        margin-left: 20%;}
+                                        .digital_portfolio_create_text4 {display: flex;
+                                           
+                                            justify-content: center;
+                                            align-items: flex-start;
+                                            width: 550px;
+                                            margin-left: 30%;}
+
+#digital_portfolio_create_num {
+    height: 42.5px;
+    width: 42.5px;
+    align-content: center;
+    text-align: center;
+    margin-right: 5%;
+    background: #9efb51;}
+#digital_portfolio_create_text {
+width: 250px;
+height: 85px;
+flex-grow: 1;
+text-align: center;}
+
+.digital_portfolio_create_icon1 {
+    margin-top: 25px;
+    margin-left: 25px;
+position: absolute;
+top: 0;
+left: 0;
+background-image: url(../Img/digital_portfolio_create_icon_logo.svg);
+background-size: contain;
+width: 75px;
+height: 75px;}
+.digital_portfolio_create_icon2 {
+    margin-left: 150px;
+    margin-bottom: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url(../Img/digital_portfolio_create_icon_human.svg);
+    background-size: contain;
+    width: 200px;
+    height: 200px;}
+    .digital_portfolio_create_icon3 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-image: url(../Img/digital_portfolio_create_icon_spheres.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 100%;
+        z-index: 0;}
+        .digital_portfolio_create p {z-index: 1;}
+        .digital_portfolio_create h2 {z-index: 1;}
+/*-----------------------------*/
+
+/*Для кого подходит*/
+.digital_portfolio_users2 {display: none;}
+.digital_portfolio_users {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1EAEA;}
+
+.digital_portfolio_users_students {
+    width: 480px;
+    height: 700px;
+    background-image: url(../Img/digital_portfolio_users_students.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    margin-right: 2.5%;}
+.digital_portfolio_users_text {
+width: 500px;
+height: 100%;
+height: 700px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.digital_portfolio_users_text_students {
+    display: flex;}
+    .digital_portfolio_users_text_developer {
+        display: flex;
+        text-align: right;}
+        .digital_portfolio_users_text_freelance {
+            display: flex;}
+            .digital_portfolio_users_text_designer {
+                display: flex;
+                text-align: right;}
+
+
+#digital_portfolio_users_heading{
+    text-align: center;}
+#digital_portfolio_users_text{}
+#digital_portfolio_users_icon{
+width: 115px;}
+
+
+/*****/
+.digital_portfolio_contacts {
+height: 200px;
+padding-top: 2.5%;
+padding-bottom: 2.5%;
+background-color: black;
+border-radius: 30px;}
+.digital_portfolio_contacts_text_container {
+color: #F1EAEA;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+width: 100%;}
+.digital_portfolio_contacts_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1100px;}
+.digital_portfolio_contacts_logo {position: absolute;
+    left:5%;}
+
+.digital_portfolio_contacts_text_block{
+display: flex;
+justify-content: space-between;}
+
+.digital_portfolio_contacts_text_subblock {
+display: flex;
+flex-direction: column;
+width: 325px;
+height: 115px;}
+.digital_portfolio_contacts_text_subblock1 {
+display: flex;
+justify-content: center;
+align-items: center;}
+
+
+#digital_portfolio_contacts_icon {}
+#digital_portfolio_contacts_mail {
+text-align: center;
+margin-right: 60px;}
+#digital_portfolio_contacts_text {
+text-align: center;
+flex-grow: 1;}
+#digital_portfolio_contacts_heading {
+text-align: center;}
+
+@media screen and (max-width: 1000px) { 
+    /*Бургер*/
+    .menu2 {border: 1px solid green;}
+    .menu-list2 {
+        margin-top: 90px;
+        border: 1px solid black;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+        top: 0;
+        left: 0;
+        position: absolute;
+        gap: 50px;
+        padding: 42px 0;
+        list-style-type: none;
+        opacity: 0.9;
+        width: 100%;
+        height: 90vh;
+      }
+      .menu-item2 {
+        border: 1px solid black;
+        padding: 8px;
+        color: white;
+        font-size: 28px;
+        text-align: center;
+        text-decoration: none;
+      }
+      .menu-item2:hover {
+        background: rgba(255,255,255,.2)
+      }
+      .burger-checkbox:checked ~ .menu-list2 {
+        display: flex;
+        background: orange;
+        transform: translateX(0);
+      }
+      .container_head {display: none;}
+    .container_head2 {
+        display: block;
+        
+        height: 90px;}
+    /*Шапка*/
+    .head_block2 {
+        position:fixed;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        left:0px;
+        width: 100%;
+        height: 100%;
+        max-height: 90px;
+        z-index: 2;
+        
+        }
+    .head2 {
+           border-radius: 40px;
+           
+           display: flex;
+           justify-content: center;
+           width: 100%;
+           max-height: 90px;
+           opacity: 0.9;
+           box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+           background: linear-gradient(
+        90deg,
+        rgba(158, 251, 81, 1) 0%,
+        rgba(129, 255, 98, 1) 100%
+      );}
+        
+    .head_text2 {
+        
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+    .head_func2 {
+        
+        flex-grow: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 160px;}
+    
+    .logo2 {
+        max-width: 160px;
+        
+        height: 100%;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        }
+    #logo {
+         width: 100%;
+    }
+    #Glavnaya {
+        flex-grow: 5;
+        font-size: 16px;
+        }
+    #O_nas {
+     
+        flex-grow: 5;}
+    #Katalog {
+    
+        flex-grow: 5}
+    .personal_account {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-grow: 1
+    }
+    #personal_account {
+     }
+     .head_block a {text-decoration: none;
+                    color: black;
+                    transition: 0.5s;}
+                    .head_block a:hover {color: gray;}
+    
+    
+                    .burger-checkbox {
+                        position: absolute;
+                        visibility: hidden;
+                      }
+                      .burger {
+                        cursor: pointer;
+                        display: block;
+                        position: relative;
+                        border: none;
+                        background: transparent;
+                        width: 40px;
+                        height: 26px;
+                        margin: 30px auto;
+                      }
+                      .burger::before,
+                      .burger::after {
+                        content: '';
+                        left: 0;
+                        position: absolute;
+                        display: block;
+                        width: 100%;
+                        height: 4px;
+                        border-radius: 10px;
+                        background: #000;
+                      }
+                      .burger::before {
+                        top: 0;
+                        box-shadow: 0 11px 0 #000;
+                        transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+                      }
+                      .burger::after {
+                        bottom: 0;
+                        transition: bottom .3s .15s, transform .3s;
+                      }
+                      .burger-checkbox:checked + .burger::before {
+                        top: 11px;
+                        transform: rotate(45deg);
+                        box-shadow: 0 6px 0 rgba(0,0,0,0);
+                        transition: box-shadow .15s, top .3s, transform .3s .15s;
+                      }
+                      .burger-checkbox:checked + .burger::after {
+                        bottom: 11px;
+                        transform: rotate(-45deg);
+                        transition: bottom .3s, transform .3s .15s;
+                      }
+    /*Digital_Portfolio*/
+    .digital_portfolio {display: none;}
+    .digital_portfolio2 {
+        display: block;
+        align-content: center;                    
+        height: 100vh/*900px*/;
+        background-color: #F1EAEA;
+    }
+    .digital_portfolio_text2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;}
+    .digital_portfolio_text_button2 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    max-width: 575px;
+    }
+    
+    #digital_portfolio_text2 {
+    text-align: left;
+    }
+    .digital_portfolio_button_form2 {
+        
+        width: 100%;
+        margin-top: 10%;}
+    .digital_portfolio_button2
+        {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            background: linear-gradient(
+                90deg,
+                rgba(157, 251, 81, 1) 73.50000143051147%,
+                rgba(116, 116, 116, 1) 100%
+              );                         
+            width: 100%;
+            height: 50px;
+            border-radius: 10px
+        }
+    
+    #digital_portfolio_lighting2 {
+        top:0;
+        right: 0;
+        width: 100px;
+        height: 100%;
+    position: absolute;
+    }
+    #digital_portfolio_create2 {
+    flex-basis: 110px;}
+    .digital_portfolio_tree {
+            display: none;
+            }
+    .digital_portfolio2 p{z-index: 1;}
+    .digital_portfolio2 h1{z-index: 1;}
+    .digital_portfolio2 button{z-index: 1;}
+    
+    
+    /*Что такое Digital Portfolio?*/
+    .digital_portfolio_background {background: none;}
+    .digital_portfolio_what {display: none;}
+    .digital_portfolio_what2{
+        display: flex;
+        justify-content: center;
+        background-color: #F1EAEA;
+       
+        
+    } 
+    
+    .digital_portfolio_what_heading2 {
+        max-width: calc(50% + 150px);
+        text-align: right;
+        border-radius: 30px;
+        background: linear-gradient(
+            90deg,
+            rgba(241, 234, 234, 1) 0%,
+            rgba(158, 251, 81, 1) 100%);
+    }        
+    #digital_portfolio_what_heading_text2 {
+       
+        text-align: center;
+        width: 300px;
+        margin: 0 auto;
+        display: inline-block;}
+    .digital_portfolio_what_сontainer2 {
+        height: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        }
+    .digital_portfolio_what_block12 {
+        margin-top: 10%;
+        border: 1px solid black;
+        display: flex;
+        width: 100%;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .digital_portfolio_what_block22 {
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50vh;
+        background-color: black;
+        margin-right: 10px;
+        margin-left: 10px;}
+    .digital_portfolio_what_block32 {
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50vh;
+        background-color: black;
+        margin-right: 10px;
+        margin-left: 10px;}
+    #digital_portfolio_what_block_text2 {padding-right: 5px;
+    padding-left: 5px;
+    color: #9EFB51;}
+    
+    .digital_portfolio_background_sphere {display: none;}
+    .test {
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    }
+    /*Ключевые Функции Сервиса*/
+    .digital_portfolio_func {display: none;}
+    .digital_portfolio_func2{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+        position: relative;
+        background-color: #F1EAEA;}
+        .digital_portfolio_func_background {background: none;}
+        .digital_portfolio_func_heading2{
+            display: flex;
+            float: right;
+            justify-content: center;
+            width: 100%;
+            background: linear-gradient(
+            90deg,
+            rgba(158, 251, 81, 1) 0%,
+            rgba(241, 234, 234, 0) 100%
+          );
+            border-radius: 30px;
+            max-height: 90px;}
+        #digital_portfolio_func_heading_text2 {
+            max-width: 500px;
+            text-align: center;
+        }
+        
+        
+        .digital_portfolio_func_board_block2 {
+            display: flex;
+            width: 90%;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start}
+            
+        .digital_portfolio_func_board_profile_text2 {
+            
+            position: relative;
+            display: flex;
+            margin-top: 10%;
+            margin-right: 10%;}
+            .digital_portfolio_func_board_cataloge_text2 {
+                
+                position: relative;
+                display: flex;
+                margin-top: 7%;}
+                .digital_portfolio_func_board_add_text2 {
+                    
+                    position: relative;
+                    display: flex;
+                    margin-top: 10%;
+                    margin-right: 10%;}
+                    .digital_portfolio_func_board_publication_text2 {
+                        
+                        position: relative;
+                        display: flex;
+                        margin-top: 13%;}
+            
+            #digital_portfolio_func_board_profile2 {
+            width: 100%;}
+            
+            
+            #digital_portfolio_func_board_profile_heading2 {
+                position: absolute;
+                top: 20%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;}
+            
+            #digital_portfolio_func_board_profile_text2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;}
+        
+        
+        
+        /************/
+        .digital_portfolio_create {display: none;}
+        .digital_portfolio_create2 {
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            background-color: #F1EAEA;}
+            #digital_portfolio_create_heading2 {
+            text-align: center;}
+            .digital_portfolio_create_text_container2 {display: flex;
+            
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;}
+            .digital_portfolio_create_text2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 80%;
+            height: 80%;
+            margin-right: 20%;}
+            
+            .digital_portfolio_create_text12 {display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 100%;
+                                            height: 50vh;
+                                            }
+                                            .digital_portfolio_create_text22 {display: flex;  
+                                                justify-content: center;
+                                                align-items: center;
+                                                width: 100%;
+                                                height: 50vh;
+                                                margin-left: 10%;
+                                                }
+                                                .digital_portfolio_create_text32 {display: flex;
+                                                   
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    width: 100%;
+                                                    margin-left: 20%;
+                                                    height: 50vh;
+                                                   }
+                                                    .digital_portfolio_create_text42 {display: flex;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        width: 100%;
+                                                        height: 50vh;
+                                                        margin-left: 30%;
+                                                        }
+            
+            #digital_portfolio_create_num2 {
+                
+                height: 60px;
+                width: 60px;
+                align-content: center;
+                text-align: center;
+                margin-right: 5%;
+                background: #9efb51;}
+            #digital_portfolio_create_text2 {
+                align-content: center;
+            text-align: center;
+            
+            height: 100%;
+            flex-grow: 1;
+            text-align: center;}
+            
+            .digital_portfolio_create_icon1 {
+                display: none;}
+            .digital_portfolio_create_icon2 {
+                display: none;}
+                .digital_portfolio_create_icon3 {
+                    display: none;}
+                    .digital_portfolio_create p {z-index: 1;}
+                    .digital_portfolio_create h2 {z-index: 1;}
+            /*-----------------------------*/
+            /*Для кого подходит*/
+            .digital_portfolio_users {display: none;}
+    .digital_portfolio_users2 {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F1EAEA;}
+    
+    .digital_portfolio_users_students2 {
+        display: none;
+        width: 480px;
+        height: 700px;
+        background-image: url(../Img/digital_portfolio_users_students.svg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border-radius: 10%;
+        margin-right: 2.5%;}
+    .digital_portfolio_users_text2 {
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .digital_portfolio_users_text_students2 {
+        
+        height: 50vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;}
+        .digital_portfolio_users_text_developer2 {
+            display: flex;
+            height: 50vh;
+            justify-content: space-between;
+        align-items: center;
+            }
+            .digital_portfolio_users_text_freelance2 {
+                display: flex;
+                height: 50vh;
+                justify-content: space-between;
+                align-items: center;}
+                .digital_portfolio_users_text_designer2 {
+                    display: flex;
+                    height: 50vh;
+                    justify-content: space-between;
+                    align-items: center;
+                    }
+    
+    
+    #digital_portfolio_users_heading2{
+        text-align: center;}
+    #digital_portfolio_users_text2{
+        align-content: center;
+        text-align: center;
+        
+        height: 100%;
+        width: 100%;
+    }
+    #digital_portfolio_users_icon2{
+    width: 25vw;
+    height: 25vh;}
+    .digital_portfolio_users_students {display: none;}
+    /*****/
+    .digital_portfolio_contacts {
+        margin-top: 5%;
+        height: 200px;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        background-color: black;
+        border-radius: 30px;}
+        .digital_portfolio_contacts_text_container {
+        color: #F1EAEA;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;}
+        .digital_portfolio_contacts_text {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            max-width: 1100px;}
+        .digital_portfolio_contacts_logo {position: absolute;
+            left:5%;}
+        
+        .digital_portfolio_contacts_text_block{
+        display: flex;
+        justify-content: space-between;}
+        
+        .digital_portfolio_contacts_text_subblock {
+        display: flex;
+        flex-direction: column;
+        width: 325px;
+        height: 115px;}
+        .digital_portfolio_contacts_text_subblock1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+        
+        
+        #digital_portfolio_contacts_icon {display: none;}
+        #digital_portfolio_contacts_mail {
+        text-align: center;
+        margin-right: 60px;}
+        #digital_portfolio_contacts_text {
+        text-align: center;
+        flex-grow: 1;}
+        #digital_portfolio_contacts_heading {
+        text-align: center;} }
+
